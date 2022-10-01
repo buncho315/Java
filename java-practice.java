@@ -9,3 +9,11 @@ public class Main {
 		System.out.println("合計金額:" + total + "円");
 	}
 }
+
+public class Main {
+	public static void main(String[] args) {
+		String a = "01234";
+		String b = "56789";
+		System.out.println(a + b);
+	}
+}
