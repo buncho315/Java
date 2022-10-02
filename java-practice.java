@@ -12,11 +12,18 @@ public class Main {
 
 public class Main {
 	public static void main(String[] args) {
-		String a = "01234";
-		String b = "56789";
-		System.out.println(a + b);
+		int time = 15;
+		if (time < 12) {
+			System.out.println("午前中"); // 条件式が成立したときの処理
+		} else if (time == 12) {
+		    System.out.println("正午");
+		} else if (time > 12) {
+		    System.out.println("午後");
+		}
 	}
 }
+
+
 
 // if文による条件分岐　else if
 public class Main {
