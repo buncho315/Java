@@ -73,3 +73,15 @@ public class Main {
         }
     }
 }
+// 複数の条件を組み合わせる - OR
+public class Main {
+    public static void main(String[] args) {
+        int number1= 0;
+        int number2= 0;
+        if(number1 == 1 || number2 == 1) {
+            System.out.println("いいね");
+        } else {
+            System.out.println("悪い");
+        }
+    }
+}
