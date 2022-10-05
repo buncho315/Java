@@ -85,3 +85,11 @@ public class Main {
         }
     }
 }
+		int number3 = 40;
+        System.out.println(number3);
+        if (number3 <= 30 || number3 >= 60){
+            System.out.println("あたり");
+        } else {
+            System.out.println("残念");
+        }
+    }
