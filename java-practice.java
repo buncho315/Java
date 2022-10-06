@@ -93,3 +93,18 @@ public class Main {
             System.out.println("残念");
         }
     }
+
+    // 条件の評価結果
+
+public class Main {
+    public static void main(String[] args) {
+        int number = 0;
+        boolean flag = number == 1;
+        if (flag) {
+            System.out.println("好き");
+        } else {
+            System.out.println("嫌い");
+        }
+        System.out.println(flag);
+    }
+}
