@@ -108,3 +108,24 @@ public class Main {
         System.out.println(flag);
     }
 }
+// データ型
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(10 / 3);
+        System.out.println(10 / 3.0);
+
+        double number1 = 3.14;
+        System.out.println(number1);
+        System.out.println((int)number1);
+
+        int number2 = 2;
+        System.out.println(number2);
+        System.out.println((double)number2);
+
+        String text = "123";
+        System.out.println(text);
+        System.out.println(Integer.parseInt(text));
+        System.out.println(Double.parseDouble(text));
+    }
+}
