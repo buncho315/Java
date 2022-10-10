@@ -148,3 +148,12 @@ public class Main {
         System.out.println ("スライムを倒した");
     }
 }
+public class Main {
+    public static void main(String[] args) {
+        int i = 19;
+        while(i >= 10) {
+            System.out.println(i);
+            i = i - 2;
+        }
+    }
+}
