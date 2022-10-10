@@ -134,3 +134,17 @@ public class Main {
         System.out.println("last" + i);
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        int hp = 30;
+        int hit;
+        while (hp > 0) {
+            hit = (int)(Math.random() * 10 + 1);
+            System.out.println("スライムに" + hit + "ダメージ！");    // 繰り返し処理
+            hp -= hit;
+
+        }
+        System.out.println ("スライムを倒した");
+    }
+}
