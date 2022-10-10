@@ -128,7 +128,8 @@ public class Main {
         int i = 0;// カウンタ変数の初期化
         while (i <= 5) {
             System.out.println("hello world" + i);// 繰り返し処理
-            i = i + 1;// カウンタ変数の更新
+
+            i += 1;
         }
         System.out.println("last" + i);
     }
