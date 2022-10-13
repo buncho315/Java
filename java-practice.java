@@ -157,3 +157,13 @@ public class Main {
         }
     }
 }
+// forによるループ処理
+public class Main {
+    public static void main(String[] args) {
+        int i;
+        for(i = 0; i <= 4; i++) {
+            System.out.println("hello world" + i);// 繰り返し処理
+        }
+        System.out.println("last" + i);
+    }
+}
