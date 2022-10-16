@@ -167,3 +167,24 @@ public class Main {
         System.out.println("last" + i);
     }
 }
+// 年齢入力のプルダウン作成
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("<select name='age'>");
+        for (int i = 1; i <= 10; i++){
+            System.out.println("<option>"+i+"才</option>");
+        }
+        System.out.println("</select>");
+    }
+}
+// 標準入力
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String data = sc.next();
+        //int data = sc.nextInt(); 数値の場合
+        System.out.println("hello " + data);
+    }
+}
