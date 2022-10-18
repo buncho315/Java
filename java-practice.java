@@ -196,12 +196,23 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int count = sc.nextInt();
         System.out.println("データ個数： " + count);
-        
+
         String data;
         for (int i = 0; i < count; i++){
             data = sc.next();
             System.out.println("hello " + data);
         }
-        
+
+    }
+}
+// 西暦年と平成年の対応表を作る
+// 1989年から2016年までをループで出力
+// ループ内で、各西暦年を平成年に変換
+public class Main {
+    public static void main(String[] args) {
+        int seireki, heisei;
+        for (seireki = 1989; seireki <= 2016; seireki++){
+            System.out.println("西暦"+seireki+"年");
+        }
     }
 }
