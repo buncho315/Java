@@ -213,6 +213,8 @@ public class Main {
         int seireki, heisei;
         for (seireki = 1989; seireki <= 2016; seireki++){
             System.out.println("西暦"+seireki+"年");
+            heisei = seireki - 1988;
+            System.out.println("平成"+heisei+"年です");
         }
     }
 }
