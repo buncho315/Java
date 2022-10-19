@@ -16,7 +16,6 @@ public class Main {
     }
 }
 
-
 // if文による条件分岐　else if
 public class Main {
 	public static void main(String[] args) {
@@ -44,7 +43,6 @@ public class Main {
 }
 
 // 複数の条件を組み合わせる - AND
-
 public class Main {
     public static void main(String[] args) {
         int number1 = 2;
@@ -216,5 +214,20 @@ public class Main {
             heisei = seireki - 1988;
             System.out.println("平成"+heisei+"年です");
         }
+    }
+}
+// 配列を作成する
+public class Main {
+    public static void main(String[] args) {
+        String player1 = "勇者";
+        String player2 = "魔法使い";
+
+        System.out.println(player1);
+        System.out.println(player2);
+
+        String[] team = {"戦士", "忍者",player1};
+        System.out.println(team[0]);
+        System.out.println(team[1]);
+        System.out.println(team[2]);
     }
 }
