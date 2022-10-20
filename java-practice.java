@@ -1,21 +1,3 @@
-// 税込み金額を計算する
-
-public class Main {
-    public static void main(String[] args) {
-        int price = 3500;
-        System.out.println("定価"+"円");
-        int discountPrice =(int)(price * 0.85);
-        System.out.println("割引価格は"+discountPrice+"円です");
-        int amount =(int)(discountPrice * 1.08);
-        System.out.println("税込価格は"+amount+"円です");
-        int person = 5;
-        System.out.println("人数が"+person+"人の場合、");
-        int amountPerPerson = amount / person;
-        int remainder = amount % person;
-        System.out.println("一人当たりは"+amountPerPerson+"円、余りは"+remainder+"円です");
-    }
-}
-
 // if文による条件分岐　else if
 public class Main {
 	public static void main(String[] args) {
@@ -27,18 +9,6 @@ public class Main {
 		} else {
 			System.out.println("キライ");		// 条件式が成立しなかったときの処理
 		}
-	}
-}
-// 西暦年から平成年を求める
-import java.util.Calendar;
-public class Main {
-	public static void main(String[] args) {
-        Calendar calendar = Calendar.getInctance();
-        int seireki = calendar.get(Calendar.YEAR);
-        System.out.println("西暦" + seireki + "年は");
-
-        int heisei = seireki - 1088;
-        System.out.println("平成" + heisei + "年です");
 	}
 }
 
@@ -229,5 +199,22 @@ public class Main {
         System.out.println(team[0]);
         System.out.println(team[1]);
         System.out.println(team[2]);
+    }
+}
+// 配列の要素を取り出す
+public class Main {
+    public static void main(String[] args) {
+        int num = 0;
+        //String[] team = {"戦士", "忍者"};
+        String[] team =
+        team = new String[2];
+        team[0] = "戦士";
+        team[1] = "忍者";
+
+        System.out.println(team[num + 1]);
+        //System.out.println(team[0]);
+
+        team[1] = "盗賊";
+        System.out.println(team[1]);
     }
 }
